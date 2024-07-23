@@ -189,7 +189,7 @@ const CreateTrip = () => {
         </div>
       </div>
       <div className="my-10  justify-end flex">
-        <Button onClick={OnGenerateTrip}  disabled={loading}>
+        <Button onClick={OnGenerateTrip}  disabled={loading} variant="outline" className="rounded-2xl">
           {loading ? <AiOutlineLoading3Quarters className="h-7 w-7 animate-spin"/> : "Generate Trip"}
         </Button>
       </div>
